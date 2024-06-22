@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "cool-mod-name:block/debug_block"
+  }
+}

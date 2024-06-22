@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "msl",
+	"version": "${version}",
+	"name": "Maxs_Shared_Lib",
+	"description": "Maxs shared library for creating items, blocks & more!",
+	"authors": [
+		"Tir5d Turtle"
+	],
+	"contact": {
+	},
+	"license": "MIT",
+	"icon": "assets/msl/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.msl.Maxs_Shared_Lib"
+		],
+		"fabric-datagen": [
+			"net.msl.Maxs_Shared_LibDataGenerator"
+		]
+	},
+	"mixins": [
+		"msl.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
